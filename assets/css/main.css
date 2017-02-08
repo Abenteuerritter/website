@@ -1,0 +1,285 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*! Based on Initializr | http://verekia.com/initializr/responsive-template */
+
+body {
+    font: 16px/24px Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+.wrapper{
+    width: 947px;
+    margin: 0 auto;
+}
+
+::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
+::selection { background: #f16529; color: #fff; text-shadow: none; }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    background: -moz-linear-gradient(top, #FE744D 0%, #992201);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FE744D), to(#992201));
+
+    border-left: 1px solid #FE744D;
+    border-right: 1px solid #992201;
+}
+    
+nav li:first-child a { border-left: 0; }
+nav li:last-child a { border-right: 0; }
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+#main {
+    padding: 30px 0;
+}
+
+#main article h1 {
+    font-size: 2em;
+}
+
+#main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+@media only screen and (min-width: 480px) {
+    nav a {
+        float: left;
+        padding: 10px 25px;
+        margin-bottom: 0;
+    }
+    
+    nav li:first-child a { margin-left: 0; }
+    nav li:last-child a { margin-right: 0; }
+
+    nav ul li {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header,
+    #main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+    #main article {
+        float: left;
+        width: 57%;
+    }
+        
+    #main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/*! Abenteuerritter */
+
+body {
+    background: no-repeat top/100% url("../img/background.jpg");
+}
+
+header {
+    background: no-repeat left url("../img/logo.png");
+}
+
+header h1 {
+    background: no-repeat center/80% url("../img/abenteuerritter.gif");
+    text-indent: -9999px;
+    height: 355px;
+}
+
+#main-container {
+    background: no-repeat top url("../img/page.png") rgba(0, 0, 0, 0.5);
+}
+
+#main {
+    padding: 2em;
+    color: white;
+}
+
+#main article h2 {
+    color: #F29509;
+}
+
+@media only screen and (min-width: 768px) {
+    header, #main aside {
+        background-color: rgba(170, 170, 170, 0.5);
+    }
+}
