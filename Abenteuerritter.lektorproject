@@ -1,2 +1,8 @@
 [project]
 name = Abenteuerritter
+
+[servers.default]
+name = Default Server
+target = rsync://abenteuerritter.de/srv/www/abenteuerritter.de/
+enabled = yes
+default = yes
