@@ -26,6 +26,7 @@
         content: >
           server {
               listen 80;
+              server_name abenteuerritter.de;
               root /srv/www/abenteuerritter.de;
 
               access_log /var/log/nginx/abenteuerritter-access.log;
@@ -35,6 +36,6 @@
                   index index.html;
               }
           }
-        dest: /etc/nginx/sites-enabled/{{ ansible_hostname }}.conf
+        dest: /etc/nginx/sites-enabled/abenteuerritter.de.conf
     - service: name=nginx state=started enabled=yes
     - service: name=nginx state=restarted
