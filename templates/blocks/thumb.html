@@ -1,0 +1,6 @@
+{% set img = record.attachments.images.get(this.image) %}
+{% if img %}
+  <a href="{{ this.image|url }}">
+    <img src="{{ img.thumbnail(440)|url }}" alt="{{ this.caption|string|truncate }}">
+  </a>
+{% endif %}
