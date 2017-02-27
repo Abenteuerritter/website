@@ -26,6 +26,11 @@
         content: >
           server {
               listen 80;
+              server_name www.abenteuerritter.de;
+              return 301 http://abenteuerritter.de$request_uri;
+          }
+          server {
+              listen 80;
               server_name abenteuerritter.de;
               root /srv/www/abenteuerritter.de;
 
