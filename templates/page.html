@@ -1,6 +1,9 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
-{% block body %}
+{% block main %}
   <h2>{{ this.title }}</h2>
-  {{ this.body }}
+  <article>{{ this.body }}</article>
+  {% if this.aside %}
+    <aside>{{ this.aside }}</aside>
+  {% endif %}
 {% endblock %}
