@@ -2,8 +2,10 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block main %}
   <h2>{{ this.title }}</h2>
-  <article>{{ this.body }}{{ this.videos }}</article>
   {% if this.aside %}
+    <article>{{ this.body }}{{ this.videos }}</article>
     <aside>{{ this.aside }}</aside>
+  {% else %}
+    {{ this.body }}{{ this.videos }}
   {% endif %}
 {% endblock %}
