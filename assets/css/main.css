@@ -278,6 +278,24 @@ header h1 {
     color: #F29509;
 }
 
+.media {
+    background-color: black;
+}
+
+.media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.media ul li {
+    width: 430px;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+    height: 315px;
+}
+
 @media only screen and (min-width: 768px) {
     header, #main aside {
         background-color: rgba(170, 170, 170, 0.5);

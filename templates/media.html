@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block main %}
+  <h2>{{ this.title }}</h2>
+  <div class="media clearfix">
+    <ul>
+    {% for item in this.media.blocks %}
+      <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+{% endblock %}

@@ -1,12 +1,10 @@
-_model: page
+_model: media
 ---
 title: Media
 ---
-body:
+media:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hwZ_AKw188w" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z9F7c9XxXSk" frameborder="0" allowfullscreen></iframe>
-
----
-videos: 
+#### youtube ####
+video: hwZ_AKw188w
+#### youtube ####
+video: z9F7c9XxXSk
