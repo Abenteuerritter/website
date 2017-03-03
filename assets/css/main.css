@@ -198,15 +198,6 @@ nav a:visited {
     color: white;
 }
 
-#main {
-    padding: 30px 0;
-}
-
-#main aside {
-    color: #CAC2BC;
-    padding: 0px 5% 10px;
-}
-
 @media only screen and (min-width: 480px) {
     nav a {
         float: left;
@@ -232,12 +223,12 @@ nav a:visited {
 
     #main article {
         float: left;
-        width: 57%;
+        width: 60%;
     }
         
     #main aside {
         float: right;
-        width: 28%;
+        width: 30%;
     }
 }
 
@@ -249,6 +240,15 @@ nav a:visited {
 
 body {
     background: no-repeat top/100% url("../img/background.jpg");
+}
+
+::-webkit-input-placeholder { color: #CAC2BC; }
+:-moz-placeholder { color: #CAC2BC; opacity: 1; }
+::-moz-placeholder { color: #CAC2BC; opacity: 1; }
+:-ms-input-placeholder { color: #CAC2BC; }
+
+p {
+    margin: 0 0 16px;
 }
 
 header {
@@ -266,7 +266,7 @@ header h1 {
 }
 
 #main {
-    padding: 2em;
+    padding: 4em;
     color: white;
 }
 
@@ -274,6 +274,14 @@ header h1 {
     color: #F29509;
     font-size: 3em;
     font-weight: 500;
+}
+
+#main article, #main aside {
+    margin: 16px 0;
+}
+
+#main aside {
+    color: #CAC2BC;
 }
 
 .media {
