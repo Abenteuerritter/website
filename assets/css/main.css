@@ -284,19 +284,18 @@ header h1 {
     color: #CAC2BC;
 }
 
-.media {
+.items {
     background-color: black;
 }
 
-.media ul {
+.items ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.media ul li {
-    width: 430px;
-    padding: 5px;
+.items ul li {
+    width: 50%;
     float: left;
     overflow: hidden;
     height: 315px;
