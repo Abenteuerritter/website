@@ -1,7 +1,19 @@
-_model: page
+_model: contact
 ---
-title: Kontakt
+title: Kontaktiere uns
 ---
-body: TBD
+body: 
 ---
-videos: 
+aside:
+
+E-Mail:  
+abenteuerritter@gmail.com
+
+
+Unser HQ:  
+Rembrandtstr. 8  
+12157 - Berlin
+---
+subject: Abenteuerritter.de Kontakt
+---
+email: abenteuerritter@gmail.com

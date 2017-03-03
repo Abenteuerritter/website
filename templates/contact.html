@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block main %}
+  <h2>{{ this.title }}</h2>
+  <article>
+    {% if this.body %}
+      {{ this.body }}
+    {% endif %}
+    <form action="https://formspree.io/{{ this.email }}" method="POST">
+      <input type="text" name="name" placeholder="Name">
+      <input type="email" name="email" placeholder="E-Mail">
+      <input type="hidden" name="_subject" value="{{ this.subject }}">
+      <input type="hidden" name="_gotcha" value="">
+      <textarea name="message" placeholder="Message"></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </article>
+  {% if this.aside %}
+    <aside>{{ this.aside }}</aside>
+  {% endif %}
+{% endblock %}
