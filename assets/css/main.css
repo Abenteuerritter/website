@@ -302,6 +302,25 @@ header h1 {
     height: 315px;
 }
 
+input, textarea {
+    background-color: #261E18;
+    border: 1px solid black;
+    color: #F29509;
+    width: 100%;
+    padding: 5px;
+    margin: 0 0 5px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #F29509;
+    border: 0;
+    color: black;
+    padding: 5px 10px;
+    float: right;
+    max-width: 35%;
+}
+
 @media only screen and (min-width: 768px) {
     header, #main aside.sq {
         color: white;
