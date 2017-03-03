@@ -324,5 +324,6 @@ input[type="submit"] {
     header, #main aside.sq {
         color: white;
         background-color: rgba(170, 170, 170, 0.5);
+        padding: 16px;
     }
 }
