@@ -203,7 +203,7 @@ nav a:visited {
 }
 
 #main aside {
-    color: white;
+    color: #CAC2BC;
     padding: 0px 5% 10px;
 }
 
@@ -224,7 +224,7 @@ nav a:visited {
 
 @media only screen and (min-width: 768px) {
     header,
-    #main aside {
+    #main aside.sq {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
@@ -262,7 +262,7 @@ header h1 {
 }
 
 #main-container {
-    background: no-repeat top url("../img/page.png") rgba(0, 0, 0, 0.5);
+    background: no-repeat top url("../img/page.png") rgba(38, 30, 24, 0.9);
 }
 
 #main {
@@ -295,7 +295,8 @@ header h1 {
 }
 
 @media only screen and (min-width: 768px) {
-    header, #main aside {
+    header, #main aside.sq {
+        color: white;
         background-color: rgba(170, 170, 170, 0.5);
     }
 }
