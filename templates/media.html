@@ -2,11 +2,13 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block main %}
   <h2>{{ this.title }}</h2>
-  <div class="items clearfix">
-    <ul>
-    {% for item in this.media.blocks %}
-      <li>{{ item }}</li>
+  <div class="media">
+    {% for row in this.media.blocks|batch(2) %}
+      <div class="row clearfix">
+        {% for item in row %}
+          <div class="col col-6">{{ item }}</div>
+        {% endfor %}
+      </div>
     {% endfor %}
-    </ul>
   </div>
 {% endblock %}
