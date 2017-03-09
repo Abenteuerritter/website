@@ -240,6 +240,7 @@ nav a:visited {
 
 body {
     background: no-repeat top/100% url("../img/background.jpg");
+    background-attachment: fixed;
 }
 
 ::-webkit-input-placeholder { color: #CAC2BC; }
