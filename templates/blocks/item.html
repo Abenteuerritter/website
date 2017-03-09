@@ -1,15 +1,19 @@
 {% set img = record.attachments.images.get(this.image) %}
-{% if this.link.url %}
-  <a href="{{ this.link }}">
-    {% if img %}
-      <img src="{{ img.thumbnail(440)|url }}" alt="{{ this.caption|string|truncate }}">
+<div class="media">
+  <div class="media-inner">
+    {% if this.link.url %}
+      <a href="{{ this.link }}">
+        {% if img %}
+          <img src="{{ img.thumbnail(440)|url }}" alt="{{ this.caption|string|truncate }}">
+        {% endif %}
+        <span>{{ this.caption|string|truncate }}</span>
+      </a>
+    {% else %}
+      {% if img %}
+        <img src="{{ img.thumbnail(440)|url }}" alt="{{ this.caption|string|truncate }}">
+      {% endif %}
+      <span>{{ this.caption|string|truncate }}</span>
     {% endif %}
-    <span>{{ this.caption|string|truncate }}</span>
-  </a>
-{% else %}
-  {% if img %}
-    <img src="{{ img.thumbnail(440)|url }}" alt="{{ this.caption|string|truncate }}">
-  {% endif %}
-  <span>{{ this.caption|string|truncate }}</span>
-{% endif %}
+  </div>
+</div>
 {{ this.description }}

@@ -288,6 +288,8 @@ header h1 {
     background-color: black;
     position: relative;
     padding: 7px;
+    margin-bottom: 1em;
+    min-height: 230px;
 }
 
 .media:before, .media:after {
