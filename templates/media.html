@@ -3,12 +3,14 @@
 {% block main %}
   <h2>{{ this.title }}</h2>
   <div class="media">
-    {% for row in this.media.blocks|batch(2) %}
-      <div class="row clearfix">
-        {% for item in row %}
-          <div class="col col-6">{{ item }}</div>
-        {% endfor %}
-      </div>
-    {% endfor %}
+    <div class="media-inner">
+      {% for row in this.media.blocks|batch(2) %}
+        <div class="row clearfix">
+          {% for item in row %}
+            <div class="col col-6">{{ item }}</div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
 {% endblock %}

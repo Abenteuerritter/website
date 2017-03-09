@@ -284,21 +284,48 @@ header h1 {
     color: #CAC2BC;
 }
 
-.items {
+.media {
     background-color: black;
+    position: relative;
+    padding: 7px;
 }
 
-.items ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.media:before, .media:after {
+    background: repeat-x url("../img/sloppyhoriz.png");
+    position: absolute;
+    height: 10px;
+    left: -7px;
+    right: -7px;
+    content: "";
 }
 
-.items ul li {
-    width: 50%;
-    float: left;
-    overflow: hidden;
-    height: 315px;
+.media:before {
+    background-position: 0 0;
+    top: -7px;
+}
+
+.media:after {
+    background-position: 0 100%;
+    bottom: -7px;
+}
+
+.media-inner:before, .media-inner:after {
+    background: repeat-x url("../img/sloppyvertical.png");
+    position: absolute;
+    width: 10px;
+    top: -7px;
+    bottom: -7px;
+    content: "";
+}
+
+.media-inner:before {
+    background-position: 0 0;
+    left: -7px;
+}
+
+.media-inner:after {
+    background-position: 100% 0;
+    right: -7px;
 }
 
 input, textarea {
