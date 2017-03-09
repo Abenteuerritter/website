@@ -1,11 +1,62 @@
-_model: page
+_model: list
 ---
 title: Kindergeburtstage
 ---
 body:
 
-Eine Geburtstagsfeier mit Rollenspiel ist immer ein riesen Spaß für alle Kinder. Abenteuerritter hat in den letzten 10 Jahren zahlreiche Kindergeburtstage veranstaltet, und stets mit großem Erfolg.
+Eine Geburtstagsfeier mit Rollenspiel ist immer ein riesen Spaß für alle Kinder. Abenteuerritter hat in den letzten 10 Jahren zahlreiche Kindergeburtstage veranstaltet, und stets mit großem Erfolg.  
 Sie können Rollenspiele mit 1, 2, 3 oder mehr Schauspielern buchen, je nach Ihren Wünschen. Wir bringen Kostüme, Ausrüstung und Waffen für alle Kinder mit.
-
 ---
-videos: 
+items:
+
+#### item ####
+link: 
+----
+image: 
+----
+caption: Der Troll und der Zauberer
+----
+description: Der Troll und der Zauberer ist ein einfaches Rollenspiel, am besten geeignet für Kindergeburtstage. In diesem Abenteuer, sollen die Kinder dem freundlichen Zauberer helfen einen gemeinen Troll zu fangen. Aber nicht alles ist wie es scheint und die Kinder müssen entscheiden, wem sie vertrauen. Wir stellen Kostüme und Larp-Waffen für alle.
+#### item ####
+link: 
+----
+image: 
+----
+caption: Ritterprüfung
+----
+description: Ein uralter Ritterorden sucht neue Mitglieder. Um jedoch aufgenommen zu werden, müssen die Anwärter eine Reihe von schwierigen Prüfungen bestehen, bei denen sie ihren Mut und ihr Geschick beweisen können. Dieses Rollenspiel kann in Bibliotheken, Institutionen und auf Kindergeburtstagen veranstaltet werden.
+#### item ####
+link: 
+----
+image: 
+----
+caption: Besuch des Ritters
+----
+description:
+
+Der Ritter ist eine ehrenwerte und starke Persönlichkeit.  
+Er lehrt seine tapferen Gefährten und Gefährtinnen, das Kämpfen mit dem  Schwert und die alten ritterlichen Tugenden.
+
+
+Ausstattung:  
+Der Schauspieler bringt Waffen und Kostüme für alle Kinder und zusätzliche Ausrüstung, wie Kettenhemden sowie besondere Gegenstände für das Geburtstagskind mit. 
+
+
+Vorkenntnisse im Rollenspiel sind nicht erforderlich.
+#### item ####
+link: 
+----
+image: 
+----
+caption: Besuch vom Troll
+----
+description:
+
+Der Troll kann sowohl wild und furchteinflößend, sowie freundlich und lustig sein.
+
+
+Ausstattung:  
+Der Schauspieler bringt Waffen und Kostüme für alle Kinder und zusätzliche Ausrüstung, wie Kettenhemden sowie besondere Gegenstände für das Geburtstagskind mit. 
+
+
+Vorkenntnisse im Rollenspiel sind nicht erforderlich.
