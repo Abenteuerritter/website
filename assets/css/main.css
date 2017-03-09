@@ -330,6 +330,16 @@ header h1 {
     right: -7px;
 }
 
+.media span {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 250px;
+    font-size: 28px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
 input, textarea {
     background-color: #261E18;
     border: 1px solid black;
