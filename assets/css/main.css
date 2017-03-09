@@ -267,7 +267,7 @@ header h1 {
 }
 
 #main {
-    padding: 4em;
+    padding: 4em 4em 0;
     color: white;
     color: #716255;
 }
@@ -284,6 +284,13 @@ header h1 {
 
 #main aside {
     color: #CAC2BC;
+}
+
+footer {
+    padding: 1em;
+    color: #CAC2BC;
+    text-align: right;
+    font-size: 14px;
 }
 
 .media {
